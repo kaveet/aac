@@ -1,0 +1,26 @@
+# AAC — B2C SaaS Boilerplate
+
+## Summary
+AAC is a production-ready B2C SaaS boilerplate monorepo. It provides multi-tenant, multi-org, role-based access with fullstack TypeScript.
+
+## Tech Stack
+- Framework: Next.js 15 (App Router)
+- Monorepo: Turborepo + pnpm
+- Auth: Clerk (metadata-based RBAC)
+- Database: Drizzle ORM + Neon PostgreSQL
+- UI: shadcn/ui + Tailwind CSS v4
+- API: tRPC v11
+- Mobile: Expo
+- Testing: Vitest + Playwright
+- Lint/Format: Biome
+- Logging: Pino
+- i18n: next-intl
+- Analytics: PostHog
+- Rate Limiting: Upstash Redis
+
+## Key Files
+- CLAUDE.md — Development guide and conventions
+- mise.toml — Tool versions and task runner
+- turbo.json — Build pipeline
+- biome.json — Linting and formatting rules
+- .env.example — All environment variables
