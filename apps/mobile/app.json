@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "AAC",
+    "slug": "aac",
+    "version": "1.0.0",
+    "scheme": "aac",
+    "platforms": ["ios", "android"],
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.aac.app"
+    },
+    "android": {
+      "package": "com.aac.app"
+    }
+  }
+}
