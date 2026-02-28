@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.next/
+.expo/
+out/
+build/
+
+# Turborepo
+.turbo/
+
+# Environment files
+.env
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Storybook
+storybook-static/
+
+# Debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker/.env.docker
+
+# Misc
+*.tsbuildinfo

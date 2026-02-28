@@ -1,0 +1,55 @@
+[tools]
+node = "22"
+pnpm = "9"
+
+[tasks.setup]
+description = "Install all dependencies and tools"
+run = "pnpm install"
+
+[tasks.dev]
+description = "Start all dev servers"
+run = "pnpm turbo run dev"
+
+[tasks.build]
+description = "Build all packages"
+run = "pnpm turbo run build"
+
+[tasks.test]
+description = "Run all tests"
+run = "pnpm turbo run test"
+
+[tasks.lint]
+description = "Lint all packages"
+run = "pnpm turbo run lint"
+
+[tasks.typecheck]
+description = "Type-check all packages"
+run = "pnpm turbo run typecheck"
+
+[tasks."db:generate"]
+description = "Generate Drizzle migrations"
+run = "pnpm --filter @aac/db drizzle-kit generate"
+
+[tasks."db:migrate"]
+description = "Run Drizzle migrations"
+run = "pnpm --filter @aac/db drizzle-kit migrate"
+
+[tasks."db:push"]
+description = "Push Drizzle schema to database"
+run = "pnpm --filter @aac/db drizzle-kit push"
+
+[tasks."db:studio"]
+description = "Open Drizzle Studio"
+run = "pnpm --filter @aac/db drizzle-kit studio"
+
+[tasks."docker:up"]
+description = "Start Docker services"
+run = "docker compose -f docker/docker-compose.yml -f docker/docker-compose.dev.yml up -d"
+
+[tasks."docker:down"]
+description = "Stop Docker services"
+run = "docker compose -f docker/docker-compose.yml -f docker/docker-compose.dev.yml down"
+
+[tasks.storybook]
+description = "Start Storybook"
+run = "pnpm --filter storybook dev"
