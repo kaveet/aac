@@ -1,4 +1,12 @@
-import { Button, Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@aac/ui";
+import {
+  Button,
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@aac/ui";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

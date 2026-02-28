@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@aac/auth/client";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@aac/auth/client";
 import { Button } from "@aac/ui";
 import Link from "next/link";
 

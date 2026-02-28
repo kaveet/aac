@@ -24,7 +24,10 @@
       "a11y": {
         "useFocusableInteractive": "warn",
         "useSemanticElements": "warn",
-        "noRedundantRoles": "warn"
+        "noRedundantRoles": "warn",
+        "noSvgWithoutTitle": "warn",
+        "noRedundantAlt": "warn",
+        "useValidAnchor": "warn"
       },
       "security": {
         "noDangerouslySetInnerHtml": "warn"

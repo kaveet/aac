@@ -1,4 +1,4 @@
-import { appRouter, type TRPCContext } from "@aac/api";
+import { type TRPCContext, appRouter } from "@aac/api";
 import { auth } from "@aac/auth/server";
 import { createDb } from "@aac/db/client";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";

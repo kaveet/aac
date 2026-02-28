@@ -1,5 +1,5 @@
 import type { Database } from "@aac/db/client";
-import { initTRPC, TRPCError } from "@trpc/server";
+import { TRPCError, initTRPC } from "@trpc/server";
 import superjson from "superjson";
 
 export interface TRPCContext {

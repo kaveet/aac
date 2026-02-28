@@ -28,7 +28,10 @@ export function createRateLimiter(opts?: { requests?: number; window?: string })
 
   return new Ratelimit({
     redis,
-    limiter: Ratelimit.slidingWindow(opts?.requests ?? 10, (opts?.window as `${number} ${"s" | "m" | "h" | "d"}`) ?? "10 s"),
+    limiter: Ratelimit.slidingWindow(
+      opts?.requests ?? 10,
+      (opts?.window as `${number} ${"s" | "m" | "h" | "d"}`) ?? "10 s",
+    ),
     analytics: true,
   });
 }

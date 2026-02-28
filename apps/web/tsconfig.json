@@ -2,26 +2,12 @@
   "extends": "../../packages/config/tsconfig.nextjs.json",
   "compilerOptions": {
     "paths": {
-      "@/*": [
-        "./app/*",
-        "../../packages/ui/src/*"
-      ],
-      "@aac/ui": [
-        "../../packages/ui/src"
-      ],
-      "@aac/ui/*": [
-        "../../packages/ui/src/*"
-      ]
+      "@/*": ["./app/*", "../../packages/ui/src/*"],
+      "@aac/ui": ["../../packages/ui/src"],
+      "@aac/ui/*": ["../../packages/ui/src/*"]
     },
     "allowJs": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

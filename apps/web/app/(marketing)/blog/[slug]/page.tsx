@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { notFound } from "next/navigation";
 import { getBlogPost, getBlogPosts } from "../../../../lib/blog";
 
 interface Props {
@@ -41,7 +41,10 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
           <div className="mt-2 flex gap-2">
             {post.tags.map((tag) => (
-              <span key={tag} className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-xs">
+              <span
+                key={tag}
+                className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-xs"
+              >
                 {tag}
               </span>
             ))}

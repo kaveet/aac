@@ -17,7 +17,9 @@ export const Headings: Story = {
       <h2 className="text-3xl font-semibold tracking-tight">Heading 2</h2>
       <h3 className="text-2xl font-semibold tracking-tight">Heading 3</h3>
       <h4 className="text-xl font-semibold tracking-tight">Heading 4</h4>
-      <p className="text-base leading-7">Body text - The quick brown fox jumps over the lazy dog.</p>
+      <p className="text-base leading-7">
+        Body text - The quick brown fox jumps over the lazy dog.
+      </p>
       <p className="text-muted-foreground text-sm">
         Muted text - Secondary information and descriptions.
       </p>

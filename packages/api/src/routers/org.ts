@@ -1,4 +1,4 @@
-import { organizations, orgMembers } from "@aac/db/schema";
+import { orgMembers, organizations } from "@aac/db/schema";
 import { TRPCError } from "@trpc/server";
 import { and, eq } from "drizzle-orm";
 import { z } from "zod";
@@ -26,7 +26,11 @@ export const orgRouter = router({
     .input(
       z.object({
         name: z.string().min(1).max(256),
-        slug: z.string().min(1).max(256).regex(/^[a-z0-9-]+$/),
+        slug: z
+          .string()
+          .min(1)
+          .max(256)
+          .regex(/^[a-z0-9-]+$/),
       }),
     )
     .mutation(async ({ ctx, input }) => {
