@@ -1,0 +1,41 @@
+---
+title: "Getting Started with AAC"
+description: "Learn how to set up and start using the AAC SaaS boilerplate."
+date: "2024-01-01"
+author: "AAC Team"
+tags: ["getting-started", "tutorial"]
+---
+
+# Getting Started with AAC
+
+Welcome to AAC! This guide will help you set up your development environment and start building.
+
+## Prerequisites
+
+- Node.js 22+
+- pnpm 9+
+- Docker (for local development)
+
+## Quick Start
+
+1. Clone the repository
+2. Run `mise setup` to install dependencies
+3. Run `mise dev` to start the development server
+
+## Architecture
+
+AAC is built with a monorepo architecture using Turborepo and pnpm workspaces.
+The project consists of multiple packages that work together to provide a
+complete SaaS foundation.
+
+### Key Packages
+
+- **@aac/ui** — Shared component library built on shadcn/ui
+- **@aac/db** — Database schema and client using Drizzle ORM
+- **@aac/auth** — Authentication with Clerk and metadata-based RBAC
+- **@aac/api** — Type-safe API layer with tRPC
+
+## Next Steps
+
+Check out the documentation for more details on each package and how to
+customize the boilerplate for your needs.
