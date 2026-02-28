@@ -38,6 +38,7 @@ export const Colors: Story = {
       <div className="bg-secondary text-secondary-foreground rounded-lg p-4">secondary</div>
       <div className="bg-muted text-muted-foreground rounded-lg p-4">muted</div>
       <div className="bg-accent text-accent-foreground rounded-lg p-4">accent</div>
+      <div className="bg-highlight text-highlight-foreground rounded-lg p-4">highlight</div>
       <div className="bg-destructive text-destructive-foreground rounded-lg p-4">destructive</div>
     </div>
   ),

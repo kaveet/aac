@@ -108,6 +108,13 @@ const themeColors = [
     label: "accent-foreground",
   },
   {
+    name: "Highlight",
+    variable: "--highlight",
+    bg: "bg-highlight",
+    fg: "text-highlight-foreground",
+    label: "highlight-foreground",
+  },
+  {
     name: "Destructive",
     variable: "--destructive",
     bg: "bg-destructive",
