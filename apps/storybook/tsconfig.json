@@ -1,0 +1,12 @@
+{
+  "extends": "../../packages/config/tsconfig.react-library.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["../../packages/ui/src/*"],
+      "@aac/ui": ["../../packages/ui/src"],
+      "@aac/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": ["stories/**/*.ts", "stories/**/*.tsx", ".storybook/**/*.ts", ".storybook/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
