@@ -20,8 +20,10 @@
   --color-secondary-foreground: hsl(341 86% 8%);
   --color-muted: hsl(28 20% 93%);
   --color-muted-foreground: hsl(341 25% 42%);
-  --color-accent: hsl(57 94% 75%);
+  --color-accent: hsl(28 20% 90%);
   --color-accent-foreground: hsl(341 86% 8%);
+  --color-highlight: hsl(57 94% 75%);
+  --color-highlight-foreground: hsl(341 86% 8%);
   --color-destructive: hsl(0 84% 58%);
   --color-destructive-foreground: hsl(0 0% 98%);
   --color-border: hsl(28 20% 88%);
@@ -36,7 +38,7 @@
   --color-sidebar-foreground: hsl(341 30% 25%);
   --color-sidebar-primary: hsl(341 86% 8%);
   --color-sidebar-primary-foreground: hsl(0 0% 100%);
-  --color-sidebar-accent: hsl(57 94% 75%);
+  --color-sidebar-accent: hsl(28 20% 90%);
   --color-sidebar-accent-foreground: hsl(341 86% 8%);
   --color-sidebar-border: hsl(28 20% 84%);
   --color-sidebar-ring: hsl(341 86% 8%);
@@ -58,8 +60,10 @@
   --color-secondary-foreground: hsl(30 25% 94%);
   --color-muted: hsl(341 10% 18%);
   --color-muted-foreground: hsl(30 15% 62%);
-  --color-accent: hsl(57 94% 20%);
-  --color-accent-foreground: hsl(57 94% 75%);
+  --color-accent: hsl(341 10% 18%);
+  --color-accent-foreground: hsl(30 25% 94%);
+  --color-highlight: hsl(57 94% 75%);
+  --color-highlight-foreground: hsl(341 86% 8%);
   --color-destructive: hsl(0 60% 40%);
   --color-destructive-foreground: hsl(0 0% 98%);
   --color-border: hsl(341 10% 20%);
@@ -111,7 +115,7 @@
   --sidebar-foreground: hsl(341 30% 25%);
   --sidebar-primary: hsl(341 86% 8%);
   --sidebar-primary-foreground: hsl(0 0% 100%);
-  --sidebar-accent: hsl(57 94% 75%);
+  --sidebar-accent: hsl(28 20% 90%);
   --sidebar-accent-foreground: hsl(341 86% 8%);
   --sidebar-border: hsl(28 20% 84%);
   --sidebar-ring: hsl(341 86% 8%);
